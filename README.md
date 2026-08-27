@@ -11,6 +11,16 @@ npm install
 npm run dev
 ```
 
+## GitHub Pages
+
+The live site is **https://mattharper.github.io/hull-designer/** after Pages is enabled:
+
+1. Push `main` (the workflow in `.github/workflows/pages.yml` builds `dist/`).
+2. Repo **Settings → Pages → Source: GitHub Actions**.
+3. Wait for the **Deploy GitHub Pages** workflow to finish.
+
+Local `npm run dev` still uses `/`. The Pages build sets `GITHUB_PAGES=true` so assets and the hull library load under `/hull-designer/`.
+
 ## Test
 
 ```bash
