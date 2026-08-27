@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "name": "Flat-bottom Skiff",
+  "units": "ft",
+  "loa": 16,
+  "waterDensity": 64,
+  "designDraft": 0.55,
+  "cg": {
+    "x": 7.5,
+    "y": 0,
+    "z": 1.2
+  },
+  "frames": [
+    {
+      "id": "f-0",
+      "x": 0,
+      "bulkhead": false
+    },
+    {
+      "id": "f-1",
+      "x": 4,
+      "bulkhead": false
+    },
+    {
+      "id": "f-2",
+      "x": 8,
+      "bulkhead": false
+    },
+    {
+      "id": "f-3",
+      "x": 12,
+      "bulkhead": false
+    },
+    {
+      "id": "f-4",
+      "x": 16,
+      "bulkhead": false
+    }
+  ],
+  "chines": [
+    {
+      "id": "c-0",
+      "name": "Keel",
+      "offsets": [
+        {
+          "y": 0,
+          "z": 0.4
+        },
+        {
+          "y": 0,
+          "z": 0.15
+        },
+        {
+          "y": 0,
+          "z": 0
+        },
+        {
+          "y": 0,
+          "z": 0.1
+        },
+        {
+          "y": 0,
+          "z": 0.35
+        }
+      ]
+    },
+    {
+      "id": "c-1",
+      "name": "Chine",
+      "offsets": [
+        {
+          "y": 1.2,
+          "z": 0.5
+        },
+        {
+          "y": 2,
+          "z": 0.25
+        },
+        {
+          "y": 2.4,
+          "z": 0.2
+        },
+        {
+          "y": 2.1,
+          "z": 0.3
+        },
+        {
+          "y": 1,
+          "z": 0.55
+        }
+      ]
+    },
+    {
+      "id": "c-2",
+      "name": "Sheer",
+      "offsets": [
+        {
+          "y": 1.4,
+          "z": 1.8
+        },
+        {
+          "y": 2.2,
+          "z": 1.6
+        },
+        {
+          "y": 2.5,
+          "z": 1.5
+        },
+        {
+          "y": 2.3,
+          "z": 1.65
+        },
+        {
+          "y": 1.2,
+          "z": 1.9
+        }
+      ]
+    }
+  ],
+  "closedTop": false,
+  "deckHeights": [],
+  "derivedBulkheads": [
+    {
+      "id": "dbh-0",
+      "name": "Forward BH",
+      "x": 4
+    },
+    {
+      "id": "dbh-1",
+      "name": "Aft BH",
+      "x": 12
+    }
+  ],
+  "longitudinalFairing": 1
+}
