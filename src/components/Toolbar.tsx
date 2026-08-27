@@ -104,7 +104,7 @@ export function Toolbar() {
             <option value="skiff">Flat-bottom Skiff</option>
             <option value="dinghy">Multi-chine Dinghy</option>
             <option value="sup">SUP Board</option>
-            <option value="k2">KT Super K2 95L</option>
+            <option value="k2">SUP Board 2</option>
           </select>
 
           <select

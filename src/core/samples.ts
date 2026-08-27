@@ -255,7 +255,7 @@ export function createSuperK2(): Hull {
 
   return {
     version: 1,
-    name: "KT Super K2 6'3 95L",
+    name: 'SUP Board 2',
     units: 'ft',
     loa,
     waterDensity: 64,
