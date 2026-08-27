@@ -26,6 +26,7 @@ function rectPanel(id: string, w: number, h: number): Panel {
       { u: w, v: h },
       { u: 0, v: h },
     ],
+    marks: [],
   }
 }
 

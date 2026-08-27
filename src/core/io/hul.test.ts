@@ -1,10 +1,11 @@
 import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
 import { parseHul, isHulText } from './hul'
 import { validateHull } from './json'
 
-const hulls = resolve(__dirname, '../../../hulls')
+const hulls = resolve(dirname(fileURLToPath(import.meta.url)), '../../../hulls')
 
 describe('parseHul', () => {
   it('detects Carlson .HUL text', () => {
